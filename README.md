@@ -1,4 +1,4 @@
-# AfforestationProject
+# Afforestation Project
 The afforestation project is a semester project on the first semester of the master in 'Water and Environmental Engineering' at the institute of Environemntal Built at Aalborg University.
 
 The numerical model is made to determine the effect of afforestation in Gistrup, Denmark and how the afforestation effects the groundwater recharge, combined with the nitrate leaching.
