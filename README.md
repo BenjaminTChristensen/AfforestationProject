@@ -1,7 +1,7 @@
 # Afforestation Project
 The afforestation project is a semester project on the first semester of the master in 'Water and Environmental Engineering' at the institute of Environemntal Built at Aalborg University.
 
-The numerical model is made to determine the effect of afforestation in Gistrup, Denmark and how the afforestation effects the groundwater recharge, combined with the nitrate leaching.
+The numerical model is made to determine the effect of afforestation in Gistrup, Denmark and how the afforestation effects the groundwater recharge, combined with the nitrate leaching, and is based on Python 3.8.8.
 
 The file 'Numerical_Afforestation_Model' is the main file, that requires some input from other files, stored as csv-files.
 The csv-files are based on:
@@ -14,3 +14,4 @@ The csv files for Interception is 'Interception_"vegetation".csv'.
 The model calculates and outputs NumPy arrays that are used to visualize the results.
 
 In order to produce the csv-files that are required in the numerical model, the 'Interception.py' and 'Penman.py' are run.
+
