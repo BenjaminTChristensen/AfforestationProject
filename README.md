@@ -8,8 +8,12 @@ The csv-files are based on:
   1) Precipitation, measured at Oesterport, Aalborg in Denmark, sliced to a 4-year period (2017-2020)
   2) Measured weather data from the Danish Meteorological Institute for the 4-year period (2017-2020). The measured data are used to calculate the Penman-Monteith equation.
   3) Interception, based on a forecast from the Leaf Area Index (LAI), and then adjusted to the precipitation data. 
+
+
 The precipitation and calculation of the Penman-Monteith are stored in 'DMISamletDataFrame.csv', while the output of the Penman-Monteith equation is stored in the 'Penman_"vegetation".csv', where "vegetation" corresponds to the used vegetation type. Grass for Grassland, BLT for a Deciduous forest and Pine for a Coniferous forest.
 The csv files for Interception is 'Interception_"vegetation".csv'.
+
+The '5052Oesterport_alle_regn_1979-2021.km2' file is the measured rain at Oesterport for the period 1979-2021.
 
 The model calculates and outputs NumPy arrays that are used to visualize the results.
 
